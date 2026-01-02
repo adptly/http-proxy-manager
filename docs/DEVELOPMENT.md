@@ -149,10 +149,14 @@ zip -r ../http-proxy-manager.xpi * -x "*.md" -x "docs/*"
 
 ### Submit to AMO
 
-1. Create account at [addons.mozilla.org](https://addons.mozilla.org)
-2. Submit the `.xpi` file for review
-3. Wait for signing (usually 24-48 hours)
-4. Download signed extension
+1. Create account at [addons.mozilla.org](https://addons.mozilla.org/developers/)
+2. Click "Submit a New Add-on"
+3. Choose distribution:
+   - **Listed** - Public on AMO, full review (days/weeks)
+   - **Unlisted** - Self-distributed, automated signing (minutes)
+4. Upload the `.zip` file
+5. Fill in metadata (name, description, categories)
+6. Download signed `.xpi` once processed
 
 ## Extending
 

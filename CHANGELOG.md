@@ -2,6 +2,19 @@
 
 All notable changes to HTTP Proxy Manager are documented here.
 
+Format based on [Keep a Changelog](https://keepachangelog.com/).
+
+## [1.2.1] - 2026-01-02
+
+### Changed
+- Minimum Firefox version updated to 142.0 (required for AMO data collection permissions)
+- Extension ID changed to `http-proxy-manager@adptly`
+- Updated `default_title` to "HTTP Proxy Manager" for consistency
+
+### Fixed
+- Fixed deprecated `substr()` method, replaced with `substring()`
+- Fixed `data_collection_permissions` format for AMO compliance
+
 ## [1.2.0] - 2026-01-01
 
 ### Added

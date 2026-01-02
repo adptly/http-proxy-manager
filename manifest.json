@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "HTTP Proxy Manager",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Manage multiple HTTP proxy profiles with authentication support",
   "permissions": [
     "proxy",
