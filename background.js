@@ -133,7 +133,7 @@ function saveState() {
 
 // Generate unique ID for profiles
 function generateId() {
-  return Date.now().toString(36) + Math.random().toString(36).substr(2);
+  return Date.now().toString(36) + Math.random().toString(36).substring(2);
 }
 
 // Listen for messages from popup
