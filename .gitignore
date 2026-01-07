@@ -1,0 +1,11 @@
+dist/
+.internal/
+screenshots/
+!docs/screenshots/
+.cef/
+*.zip
+AGENTS.md
+GEMINI.md
+CLAUDE.md
+PLAN.md
+plan.md
